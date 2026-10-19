@@ -1,0 +1,42 @@
+[
+  {
+    "feature": "H3K4me3 (bin +3)",
+    "importance": 0.363051
+  },
+  {
+    "feature": "H3K4me3 (bin +8)",
+    "importance": 0.028742
+  },
+  {
+    "feature": "H3K4me3 (bin +7)",
+    "importance": 0.023664
+  },
+  {
+    "feature": "H3K4me1 (bin +3)",
+    "importance": 0.018036
+  },
+  {
+    "feature": "H3K4me3 (bin +11)",
+    "importance": 0.016034
+  },
+  {
+    "feature": "H3K4me3 (bin +10)",
+    "importance": 0.014806
+  },
+  {
+    "feature": "H3K4me3 (bin +6)",
+    "importance": 0.014514
+  },
+  {
+    "feature": "H3K4me3 (bin +4)",
+    "importance": 0.014263
+  },
+  {
+    "feature": "H3K4me3 (bin +5)",
+    "importance": 0.011361
+  },
+  {
+    "feature": "H3K4me3 (bin +12)",
+    "importance": 0.008191
+  }
+]

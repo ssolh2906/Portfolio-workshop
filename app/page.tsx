@@ -19,7 +19,7 @@ const LINKS = [
   { label: "Email", href: "mailto:placeholder@example.com", Icon: Mail },
 ];
 
-const FEATURED_PROJECT_TAGS = ["Python", "R", "Next.js"];
+const FEATURED_PROJECT_TAGS = ["Python", "scikit-learn", "Pandas"];
 
 export default function HomePage() {
   return (
@@ -162,15 +162,16 @@ export default function HomePage() {
               className="text-xl font-semibold mb-3"
               style={{ color: "var(--color-text-primary)" }}
             >
-              Project Title Placeholder
+              Gene Expression from Histone Modifications
             </h3>
 
             <p
               className="leading-relaxed mb-6"
               style={{ color: "var(--color-text-secondary)" }}
             >
-              A short description of the project and what problem it solves.
-              Tools, methods, or outcomes go here.
+              Predicted RNA-seq expression from four histone ChIP-seq marks
+              across 27,251 human genes. Best model: Gradient Boosting,
+              R² = 0.58, Pearson r = 0.76.
             </p>
 
             <ul className="flex flex-wrap gap-2 mb-8" role="list">
@@ -190,11 +191,11 @@ export default function HomePage() {
             </ul>
 
             <a
-              href="/work"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold transition-colors duration-150"
+              href="/work/predicting-gene-expression"
+              className="inline-flex items-center gap-1.5 text-sm font-semibold transition-colors duration-150 hover:opacity-70"
               style={{ color: "var(--color-primary)" }}
             >
-              See all work
+              View project
               <ArrowRight size={15} strokeWidth={2} />
             </a>
           </article>
