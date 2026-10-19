@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, "Cascadia Code", "Fira Code", monospace;
+}
+
 :root {
-  /* Primary — Pantone Serenity */
+  /* Primary - Pantone Serenity */
   --color-primary-light:   #C5D5EA;
   --color-primary:         #92A8D1;
   --color-primary-dark:    #5C7DAF;
@@ -49,4 +54,7 @@
 body {
   background-color: var(--color-bg);
   color: var(--color-text-primary);
+  font-family: var(--font-sans, ui-sans-serif, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
