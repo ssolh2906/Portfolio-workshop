@@ -11,6 +11,7 @@ Vercel
 
 ## Structure
 
+```text
 portfolio/
 ├── app/
 │   ├── layout.tsx
@@ -29,6 +30,7 @@ portfolio/
 ├── scripts/              # If you have python scripts
 ├── lib/utils.ts
 └── styles/globals.css
+```
 
 ## Plan
 
